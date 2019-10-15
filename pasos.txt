@@ -1,0 +1,14 @@
+Node.js
+npm install -g sass
+
+C:\Users\dai\Desktop>mkdir sassTutorial
+
+C:\Users\dai\Desktop>cd sassTutorial
+
+C:\Users\dai\Desktop\sassTutorial>echo.>style.css
+
+C:\Users\dai\Desktop\sassTutorial>echo.>style.scss
+
+C:\Users\dai\Desktop\sassTutorial>echo.>pasos.txt
+
+C:\Users\dai\Desktop\sassTutorial>sass --watch style.scss style.css

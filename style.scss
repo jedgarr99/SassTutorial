@@ -1,0 +1,12 @@
+$color-principal: pink;
+$color-secundario: blue;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+@mixin resets(){
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
