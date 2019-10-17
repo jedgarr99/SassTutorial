@@ -5,8 +5,20 @@ $color-secundario: blue;
 	padding: 0;
 	box-sizing: border-box;
 }
+*{
+	@include resets
+}
 @mixin resets(){
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+a:link,a:visited{
+text-decoration:none;
+border-bottom:2px solid transparent;
+transition: border-bottom 0.2s;
+	
+}
+a:afrer, a:after hover{
+	border-bottom:2px solid $color-principal;
 }
